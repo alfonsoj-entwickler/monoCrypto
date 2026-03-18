@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="systemcryptography.monocrypto.enter_Text_Activity"
+              android:background="#ffc7bfbd"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff60c608"
+        android:padding="10dip">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageHead"
+            android:src="@drawable/icon_main"
+            android:layout_marginRight="5dip"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/app_name"
+            android:id="@+id/textHead"
+            android:textColor="@android:color/background_dark"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dip">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:id="@+id/enterEditText"
+                    android:background="@drawable/border1"
+                    android:ellipsize="middle"
+                    android:hint="@string/menuConsole1"
+                    android:layout_gravity="left|top"
+                    android:layout_marginBottom="10dip"
+                    android:scrollbars="vertical"
+                    android:gravity="top|left"
+                    android:shadowColor="#ff505eff"
+                    android:padding="10dip"
+                    android:textSize="20dip"
+                    android:textIsSelectable="false"
+                    android:minHeight="100dip"
+                    />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editKey"
+                    android:background="@drawable/border2"
+                    android:hint="@string/menuConsole2"
+                    android:drawableLeft="@drawable/icon_key"
+                    android:drawablePadding="10dip"
+                    android:layout_marginBottom="10dip"
+                    android:padding="10dip"
+                    android:textIsSelectable="false"
+                    android:textSize="20dip"
+                    android:minHeight="45dip"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    >
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dip"
+                        android:id="@+id/buttonCipher"
+                        android:src="@drawable/icon_close_off"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_off"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:layout_marginLeft="15dip"
+                        android:layout_marginRight="15dip"/>
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dip"
+                        android:id="@+id/buttonDecoding"
+                        android:src="@drawable/icon_open_off"
+                        android:layout_weight="1"
+                        android:paddingTop="5dip"
+                        android:paddingBottom="5dip"
+                        android:background="@drawable/border_off"
+                        android:layout_marginLeft="15dip"
+                        android:layout_marginRight="15dip"/>
+                </LinearLayout>
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_gravity="left|top"
+                    android:id="@+id/resultText"
+                    android:background="@drawable/border3"
+                    android:shadowColor="#ff71ff7f"
+                    android:padding="10dip"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:ellipsize="middle"
+                    android:layout_marginBottom="10dip"
+                    android:scrollbars="vertical"
+                    android:gravity="top|left"
+                    android:textSize="20dip"
+                    android:minHeight="100dip"
+                    />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

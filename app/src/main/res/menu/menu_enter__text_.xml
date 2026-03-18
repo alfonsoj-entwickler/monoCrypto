@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="systemcryptography.monocrypto.enter_Text_Activity">
+
+      <item
+          android:id="@+id/action_option1"
+          android:title="@string/mainMenuSecondary1"
+          android:orderInCategory="100"
+          android:icon="@android:drawable/ic_menu_add"
+          app:showAsAction="never"/>
+
+      <item
+          android:id="@+id/action_option2"
+          android:title="@string/mainMenuSecondary2"
+          android:orderInCategory="200"
+          android:icon="@android:drawable/ic_menu_edit"
+          app:showAsAction="never"/>
+
+      <item
+          android:id="@+id/action_option3"
+          android:title="@string/mainMenuSecondary3"
+          android:orderInCategory="300"
+          android:icon="@android:drawable/ic_menu_compass"
+          app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_option4"
+        android:title="@string/mainMenuSecondary6"
+        android:orderInCategory="500"
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:showAsAction="never"/>
+
+      <item
+          android:id="@+id/action_option5"
+          android:title="@string/mainMenuSecondary4"
+          android:orderInCategory="400"
+          android:icon="@android:drawable/ic_menu_help"
+          app:showAsAction="never"/>
+      <item
+          android:id="@+id/action_option6"
+          android:title="@string/mainMenuSecondary5"
+          android:orderInCategory="500"
+          android:icon="@android:drawable/ic_menu_info_details"
+          app:showAsAction="never"/>
+</menu>
