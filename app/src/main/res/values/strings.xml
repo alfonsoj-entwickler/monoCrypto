@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">ClassicCrypto</string>
+    <string name="app_version">Version 0.0.9</string>
+    <string name="app_resumen">A tool encrypts your message.</string>
+    <string name="app_company">Moun Defense and Security</string>
+    <string name="app_info">Develop Apps and Big Data</string>
+    <string name="app_developer">Developer: ajtg</string>
+    <string name="app_email">Email: ajtg.developer@gmail.com</string>
+    <string name="action_settings">Settings</string>
+    <string name="mainMenuTittle">Menu</string>
+    <string name="menuTittlePlain">Plaintext</string>
+    <string name="menuTittleCipher">Ciphertext</string>
+    <string name="menuTittleSetting">Setting</string>
+    <string name="menuTittleAbout">About</string>
+    <string name="title_activity_plain_text">PlainTextActivity</string>
+    <string name="title_activity_cipher_text">CipherTextActivity</string>
+
+    <string name="text_information">Information</string>
+
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="optionSetting1">Classic Criptosystem</string>
+    <string name="optionSetting2">Alphabet</string>
+    <string name="optionSetting3">Constant A</string>
+    <string name="optionSetting4">Constant B</string>
+    <string name="optionSetting5">Position initial</string>
+    <string name="optionSetting6">Passwords</string>
+    <string name="optionSetting7">Plaintext</string>
+    <string name="optionSetting8">Ciphertext</string>
+
+    <string name="subOptionSetting1">Cesar</string>
+    <string name="subOptionSetting2">A</string>
+    <string name="subOptionSetting3">B</string>
+    <string name="subOptionSetting4">Spanish</string>
+    <string name="subOptionSetting5">Classic</string>
+    <string name="subOptionSetting6">Alcobendas</string>
+    <string name="subOptionSetting7"></string>
+    <string name="subOptionSetting8"></string>
+
+    <string name="mainMenuOption1">Substitution cipher</string>
+    <string name="mainMenuOption2">Vigenère cipher</string>
+    <string name="mainMenuOption3">Autokey cipher</string>
+    <string name="mainMenuOption4">Beaufort cipher</string>
+    <string name="mainMenuOption5">One-time pad</string>
+    <string name="mainMenuOption6">Polybius cipher</string>
+    <string name="mainMenuOption7">Playfair cipher</string>
+    <string name="mainMenuOption8">Simple transposition cipher</string>
+    <string name="mainMenuOption9">Column transposition cipher</string>
+    <string name="mainMenuOption10">Row transposition cipher</string>
+    <string name="mainMenuOption11">Series transposition cipher</string>
+    <string name="mainMenuOption12">Hill cipher</string>
+    <string name="mainMenuOption13">Bifid cipher</string>
+    <string name="mainMenuOption14">Trifid cipher</string>
+    <string name="mainMenuOption15">VIC cipher</string>
+    <string name="mainMenuOption16">ADFGVX cipher</string>
+    <string name="mainMenuOption17">Combo cipher 1</string>
+    <string name="mainMenuOption18">Combo cipher 2</string>
+    <string name="mainMenuOption19">Combo cipher 3</string>
+
+    <string name="mainMenuSubOption1">Substitution of single letters separately</string>
+    <string name="mainMenuSubOption2">It´s a simple form of polyalphabetic substitution</string>
+    <string name="mainMenuSubOption3">It mixes plaintext with a key to avoid periodicity</string>
+    <string name="mainMenuSubOption4">substitution cipher similar to the Vigenère</string>
+    <string name="mainMenuSubOption5">The key be as long as the plaintext</string>
+    <string name="mainMenuSubOption6">Each letter is then represented by its coordinates in the table</string>
+    <string name="mainMenuSubOption7">It uses a 5 by 5 table containing a key.</string>
+    <string name="mainMenuSubOption8">A simple (and once again easy to crack) encryption would be to write every word backwards</string>
+    <string name="mainMenuSubOption9">In a columnar cipher, the original message is arranged in a rectangle, from left to right and top to bottom.</string>
+    <string name="mainMenuSubOption10">In a row cipher, the original message is arranged in a rectangle, from top to bottom and left to right.</string>
+    <string name="mainMenuSubOption11">With key</string>
+    <string name="mainMenuSubOption12">The Hill cipher is a polygraphic substitution cipher based on linear algebra.</string>
+    <string name="mainMenuSubOption13">A cipher which combines the Polybius square with transposition, and uses fractionation to achieve diffusion</string>
+    <string name="mainMenuSubOption14">the first practical trigraphic substitution</string>
+    <string name="mainMenuSubOption15">straddling bipartite monoalphabetic substitution superenciphered by modified double transposition</string>
+    <string name="mainMenuSubOption16">A fractionating transposition cipher which combined a modified Polybius square with a single columnar transposition</string>
+    <string name="mainMenuSubOption17">Vigenère, Column transposition, Polybius and Hill.</string>
+    <string name="mainMenuSubOption18">Series and rows transposition, AutoKey, Hill and Polybius.</string>
+    <string name="mainMenuSubOption19">Series transposition, substitution, ADFGVX, VIC and Polybius.</string>
+    <string name="mainMenuSecondary1">Copy</string>
+    <string name="mainMenuSecondary2">Paste</string>
+    <string name="mainMenuSecondary3">Example</string>
+    <string name="mainMenuSecondary4">Send</string>
+    <string name="mainMenuSecondary5">Information</string>
+    <string name="mainMenuSecondary6">Clean</string>
+
+    <string name="title_activity_enter__text_">Console</string>
+
+    <string name="menuConsole1">Enter your message, please</string>
+    <string name="menuConsole2">Enter your password, please</string>
+    <string name="menuConsole3">Activ cipher</string>
+    <string name="menuConsole4">Activ decoding</string>
+    <string name="menuConsole5">Enter your numberKey, please</string>
+    <string name="menuConsole6">Enter your information, please</string>
+
+    <string name="testText">When in the course of human events it becomes necesary for one people to dissolve the political bands wich have connected them with another</string>
+    <string name="testKey">happiness</string>
+    <string name="testNumbertKey">7</string>
+    <string name="testText2">In a village of La Mancha, the name of which I have no desire to call to mind, there lived not long since one of those gentlemen that keep a lance in the lancerack, an old buckler, a lean hack, and a greyhound for coursing.</string>
+    <string name="testKey2">donquixote</string>
+    <string name="testText3">En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.</string>
+    <string name="testKey3">donquijote</string>
+    <string name="testKey4">test</string>
+    <string name="testKey5">In a village of La Mancha, the name of which I have no desire to call to mind, there lived not long since one of those gentlemen that keep </string>
+    <string name="testKey6">clock</string>
+    <string name="testText4">El patio de mi casa es particular, cuando llueve se moja como los demas.</string>
+    <string name="title_activity_about">About</string>
+
+    <string name="errorText1">Error: exception</string>
+    <string name="errorText2">Error</string>
+    <string name="title_activity_information">Information</string>
+
+    <string name="information1">In cryptography, a substitution cipher is a method of encoding by which units of plaintext are replaced with ciphertext, according to a regular system; the "units" may be single letters (the most common), pairs of letters, triplets of letters, mixtures of the above, and so forth. The receiver deciphers the text by performing an inverse substitution.</string>
+    <string name="information2">The Vigenère cipher is a method of encrypting alphabetic text by using a series of different Caesar ciphers based on the letters of a keyword. It is a simple form of polyalphabetic substitution. In a Caesar cipher, each letter of the alphabet is shifted along some number of places; for example, in a Caesar cipher of shift 3, A would become D, B would become E, Y would become B and so on. The Vigenère cipher consists of several Caesar ciphers in sequence with different shift values.</string>
+    <string name="information3">An autokey cipher (also known as the autoclave cipher) is a cipher which incorporates the message (the plaintext) into the key. There are two forms of autokey cipher: key autokey and text autokey ciphers. A keyautokey cipher uses previous members of the keystream to determine the next element in the keystream. A textautokey uses the previous message text to determine the next element in the keystream.</string>
+    <string name="information4">The Beaufort cipher, created by Sir Francis Beaufort, is a substitution cipher similar to the Vigenère cipher, with a slightly modified enciphering mechanism and tableau.</string>
+    <string name="information5">One type of substitution cipher, the one-time pad, is quite special. It was invented near the end of WWI by Gilbert Vernam and Joseph Mauborgne in the US. It was mathematically proven unbreakable by Claude Shannon, probably during WWII; his work was first published in the late 1940s. In its most common implementation, the one-time pad can be called a substitution cipher only from an unusual perspective; typically, the plaintext letter is combined (not substituted) in some manner (e.g., XOR) with the key material character at that position.</string>
+    <string name="information6">In cryptography, the Polybius square, also known as the Polybius checkerboard, is a device invented by the Ancient Greek historian and scholar Polybius, for fractionating plaintext characters so that they can be represented by a smaller set of symbols. Each letter is then represented by its coordinates in the grid.</string>
+    <string name="information7">The Playfair cipher or Playfair square is a manual symmetric encryption technique and was the first literal digraph substitution cipher. The scheme was invented in 1854 by Charles Wheatstone, but bears the name of Lord Playfair who promoted the use of the cipher. The technique encrypts pairs of letters (digraphs), instead of single letters as in the simple substitution cipher and rather more complex Vigenère cipher systems then in use. The Playfair is thus significantly harder to break since the frequency analysis used for simple substitution ciphers does not work with it.</string>
+    <string name="information8"></string>
+    <string name="information9"></string>
+    <string name="information10"></string>
+    <string name="information11"></string>
+    <string name="information12">In classical cryptography, the Hill cipher is a polygraphic substitution cipher based on linear algebra. Invented by Lester S. Hill in 1929, it was the first polygraphic cipher in which it was practical (though barely) to operate on more than three symbols at once. The following discussion assumes an elementary knowledge of matrices.</string>
+    <string name="information13">In classical cryptography, the bifid cipher is a cipher which combines the Polybius square with transposition, and uses fractionation to achieve diffusion. It was invented around 1901 by Felix Delastelle.</string>
+    <string name="information14">In classical cryptography, the trifid cipher is a cipher invented around 1901 by Felix Delastelle, which extends the concept of the bifid cipher to a third dimension, allowing each symbol to be fractionated into 3 elements instead of two. While the bifid uses the Polybius square to turn each symbol into coordinates on a 5 × 5 (or 6 × 6) square, the trifid turns them into coordinates on a 3 × 3 × 3 cube. As with the bifid, this is then combined with transposition to achieve diffusion.</string>
+    <string name="information15">The VIC cipher was a pencil and paper cipher used by the Soviet spy Reino Häyhänen, codenamed "VICTOR". If the cipher were to be given a modern technical name, it would be known as a "straddling bipartite monoalphabetic substitution superenciphered by modified double transposition." However, by general classification it is part of the Nihilist family of ciphers.</string>
+    <string name="information16">In cryptography, the ADFGVX cipher was a field cipher used by the German Army on the Western Front during World War I. ADFGVX was in fact an extension of an earlier cipher called ADFGX. Invented by Colonel Fritz Nebel and introduced in March 1918, the cipher was a fractionating transposition cipher which combined a modified Polybius square with a single columnar transposition. The cipher is based on the 6 letters ADFGVX. A table containing a random and secret alphabet is created with these letters as column headings and row identifiers.</string>
+
+
+
+
+
+</resources>
